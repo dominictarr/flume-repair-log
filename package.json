@@ -1,0 +1,22 @@
+{
+  "name": "flume-repair-log",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/flume-repair-log",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/flume-repair-log.git"
+  },
+  "dependencies": {
+    "flumecodec": "0.0.0",
+    "flumelog-offset": "^3.0.1",
+    "pull-stream": "^3.6.0"
+  },
+  "bin":"./bin.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
